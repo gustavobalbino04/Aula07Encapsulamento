@@ -9,8 +9,8 @@ namespace Aula07Encapsulamento
             Cartao card = new Cartao();
             
             Mastercard master = new Mastercard();
-            master.titular = "Paulo";
-            master.parcelas = 6;
+            master.titular = "gustavo";
+            master.parcelas = 5;
             master.ComprarComDescontoMastercard(45f);
         }
         
